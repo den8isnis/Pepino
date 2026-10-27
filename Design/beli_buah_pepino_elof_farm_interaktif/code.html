@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "error-container": "#ffdad6", "on-secondary-fixed": "#280056", "error": "#ba1a1a", "on-surface": "#1a1c1c", "on-error-container": "#93000a", "inverse-primary": "#d0bcff", "tertiary-fixed": "#f0e67c", "tertiary": "#676000", "secondary": "#7443ba", "surface": "#f9f9f9", "surface-variant": "#e2e2e2", "surface-container-lowest": "#ffffff", "background": "#f9f9f9", "on-primary-container": "#aa86fe", "on-error": "#ffffff", "primary-fixed-dim": "#d0bcff", "primary-fixed": "#e9ddff", "on-secondary": "#ffffff", "tertiary-container": "#b7ae4b", "on-tertiary": "#ffffff", "inverse-surface": "#2f3131", "on-tertiary-fixed": "#1f1c00", "tertiary-fixed-dim": "#d3c963", "surface-container": "#eeeeee", "on-background": "#1a1c1c", "surface-tint": "#6b47bb", "on-secondary-container": "#46038c", "on-primary-fixed": "#23005c", "secondary-fixed-dim": "#d7baff", "on-primary-fixed-variant": "#522ca1", "surface-container-high": "#e8e8e8", "on-tertiary-container": "#454100", "primary-container": "#3e0f8d", "on-secondary-fixed-variant": "#5b27a1", "secondary-container": "#b482fd", "outline-variant": "#cbc3d4", "on-surface-variant": "#494452", "surface-container-highest": "#e2e2e2", "surface-container-low": "#f4f3f3", "on-primary": "#ffffff", "surface-bright": "#f9f9f9", "surface-dim": "#dadada", "on-tertiary-fixed-variant": "#4d4800", "secondary-fixed": "#eddcff", "inverse-on-surface": "#f1f1f1", "primary": "#260061", "outline": "#7a7484" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-md": "1rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "margin-mobile": "1rem", "gutter": "1.25rem", "gutter-mobile": "0.75rem", "margin": "2rem", "space-xl": "2.5rem" }, "fontFamily": { "label-sm": ["Inter"], "display-hero-mobile": ["Plus Jakarta Sans"], "body-sm": ["Inter"], "title-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "currency-lg": ["Plus Jakarta Sans"], "label-md": ["Inter"], "display-hero": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "body-md": ["Inter"], "body-lg": ["Inter"], "headline-sm": ["Plus Jakarta Sans"] }, "fontSize": { "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }], "display-hero-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "800" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "currency-lg": ["22px", { "lineHeight": "28px", "fontWeight": "700" }], "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "display-hero": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "700" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(30,21,51,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Elof Farm Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBydc0x0vZ7YYetHB1QPYv7rhi3h4QHq-1QJa6CBkXeTilz-D8FDS19TaM2En_mo3FEuZe7whdTRo2rcqWN5y9Q1NvGJO1GaoiClqA49Ppo-IYoJ-GZZE3R2ulvqLF-seUwMhQggQnFdJ5OTNfRNttRnEMzC_N-zbH9FAzTR8X0A0uZRc2rmJ_x0qsco-CQPo_n9iCpPzaCCoi5gxvJF-gHpPqBqvBbFps2rQZw6cINS16WyI9oGO6goA"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Elof Farm</span></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-bold"><a aria-current="page" class="transition-colors text-primary font-bold" data-path="beli-buah-pepino-elof-farm" href="#keunggulan">Keunggulan</a><a aria-current="page" class="transition-colors text-primary font-bold" data-path="beli-buah-pepino-elof-farm" href="#manfaat">Manfaat Buah</a><a aria-current="page" class="transition-colors text-primary font-bold" data-path="beli-buah-pepino-elof-farm" href="#paket-harga">Paket Panen</a><a aria-current="page" class="transition-colors text-primary font-bold" data-path="beli-buah-pepino-elof-farm" href="#testimoni">Testimoni</a><a aria-current="page" class="transition-colors text-primary font-bold" data-path="beli-buah-pepino-elof-farm" href="#faq">FAQ</a><a aria-current="page" class="transition-colors text-primary font-bold" data-path="beli-buah-pepino-elof-farm" href="#order-cepat">Pemesanan</a></nav><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-full bg-[#25D366] text-on-error font-label-md text-label-md shadow-[0_4px_12px_rgba(37,211,102,0.25)] hover:opacity-95 transition-all" href="https://wa.me/" rel="noopener" target="_blank"><span class="material-symbols-outlined text-lg leading-none">chat</span><span>Pesan via WhatsApp</span></a><a class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container-high text-on-surface-variant hover:bg-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="manajemen-pesanan" href="#"><span class="material-symbols-outlined text-lg leading-none">tune</span><span>Admin Panel</span></a><div class="flex items-center pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1VIlMxA_UvcNKnXuXEano677JqtY-dh4ERzuhQT9Yv9g040SMr9B2Eeuj1aW2zwGDGlbNwgdQc_xYskQFSEFsmmwjuMi5f5YSh15Hpmy-Z7ZzDac5suNSSl2AxAeEuUNylyA6hC4nwtkYG1csBBAYxHRp_whoB93sCG-R10BE0q4DwGwng-lKZ_OzvIpHwDswPzVTW18ot8pCDENUzLQizUPqBMYM3-9J3JBch59JVpKV3isCWaSU5w"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Top Notification Ticker -->
+<aside class="w-full bg-primary-container text-on-primary py-space-xs px-margin">
+<div class="max-w-7xl mx-auto flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="inline-flex items-center justify-center w-2 h-2 rounded-full bg-tertiary-fixed animate-ping"></span>
+<p class="font-label-sm text-label-sm truncate">
+<strong class="font-semibold text-tertiary-fixed">Panen Pagi Baru Saja Selesai:</strong> Suhu kebun 16°C, brix kemanisan optimal 8.5–9.2%. Pesan sebelum 14:00 WIB untuk jadwal ekspedisi sore.
+        </p>
+</div>
+<div class="hidden lg:flex items-center gap-space-md shrink-0">
+<span class="font-label-sm text-label-sm text-primary-fixed flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-sm">verified_user</span> Jaminan Buah Utuh &amp; Manis
+        </span>
+<span class="font-label-sm text-label-sm text-primary-fixed flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-sm">local_shipping</span> Kirim se-Indonesia
+        </span>
+</div>
+</div>
+</aside>
+<!-- Hero Section -->
+<section class="relative w-full overflow-hidden bg-surface py-space-xl lg:py-24">
+<!-- Decorative Ambient Glows -->
+<div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-secondary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 right-0 w-[30rem] h-[30rem] rounded-full bg-tertiary-fixed/25 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-margin relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Text Column (7 cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm font-semibold tracking-wide">
+<span class="material-symbols-outlined text-sm">eco</span> 100% Organik Lereng Dieng
+            </span>
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-sm">hotel_class</span> Grade Super Eksklusif
+            </span>
+</div>
+<h1 class="font-display-hero text-display-hero text-primary tracking-tight leading-tight">
+            Sensasi Segar Buah Pepino Asli Dataran Tinggi — <span class="text-secondary">Langsung Petik dari Kebun Elof Farm!</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Rasakan manis lembut alami berpadu aroma perpaduan melon dan pir salju yang super juicy. Dipetik matang pohon sesuai urutan order Anda, kaya antioksidan alami, dan bebas bahan kimia pematang paksa.
+          </p>
+<!-- Urgency Stok Harian Card -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-md flex flex-col sm:flex-row sm:items-center justify-between gap-space-md mt-space-xs">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-lg bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-2xl">inventory_2</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface">Kuota Panen Hari Ini</span>
+<span class="px-2 py-0.5 rounded bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold animate-pulse">Sisa 38 kg</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                  Tersisa <strong>38 kg</strong> dari <strong>120 kg</strong> kuota panen segar pagi ini. Pesan sebelum pukul 14:00 WIB untuk dikirim hari yang sama.
+                </p>
+</div>
+</div>
+<!-- Progress Bar Stock Mini -->
+<div class="sm:w-36 shrink-0 flex flex-col gap-1">
+<div class="w-full bg-surface-container rounded-full h-2.5 overflow-hidden">
+<div class="bg-secondary h-2.5 rounded-full" style="width: 68%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant text-right">68% Terpesan</span>
+</div>
+</div>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-xl py-4 rounded-full bg-[#25D366] text-on-error font-title-md text-title-md shadow-lg shadow-emerald-500/20 hover:scale-105 active:scale-95 transition-all" href="#order-cepat">
+<span class="material-symbols-outlined text-xl leading-none">chat</span>
+<span>Pesan Sekarang via WhatsApp</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-4 rounded-full bg-surface-container-high text-primary hover:bg-surface-variant font-title-md text-title-md transition-all" href="#paket-harga">
+<span class="material-symbols-outlined text-xl leading-none">shopping_basket</span>
+<span>Lihat Pilihan Paket</span>
+</a>
+</div>
+<!-- Social Proof Micro Badge -->
+<div class="flex items-center gap-space-md pt-space-xs text-on-surface-variant">
+<div class="flex -space-x-2">
+<span class="inline-block w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold flex items-center justify-center">R</span>
+<span class="inline-block w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold flex items-center justify-center">D</span>
+<span class="inline-block w-8 h-8 rounded-full bg-primary-fixed-dim text-primary font-label-sm text-label-sm font-bold flex items-center justify-center">H</span>
+</div>
+<div class="font-body-sm text-body-sm">
+<strong class="font-semibold text-on-surface">380+ Pelanggan Puas</strong> di Jabodetabek, Surabaya, Medan &amp; kota lainnya.
+            </div>
+</div>
+</div>
+<!-- Visual Hero Column (5 cols) -->
+<div class="lg:col-span-5 relative">
+<!-- Main Product Card Frame -->
+<div class="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container-lowest p-2">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden">
+<img alt="Buah Pepino Segar Matang Pohon Elof Farm" class="w-full h-full object-cover transform hover:scale-105 transition-duration-500 transition-transform" src="https://lh3.googleusercontent.com/aida/AEtjO1X8oOh6Zc5yJ6UjUPIRAqLesmhtgIznzUHGvUuKFA1UH5sGeVRNIUf7arNcDvqGFTb632XmnBrBf_agFdRTzeI4cFaRF4lYAH11SqjB8mby9Lh9VCbw2q39y0pCm7Qtz73Isi5WpHZjTjgfc9ycLAyQLPk2QJYcUiT7Eccg88U6aD9qPz2Q8pdfJvx0McYnDvC8SwwgTJjqK6D0uqUCuOhjlfzm4AeVYBKsUDx2jXgIjDAoTrLKEJDSlNA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<!-- Floating Pill on Image -->
+<div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md">
+<span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">Petik Subuh Hari Ini</span>
+</div>
+<!-- Bottom Overlay Caption -->
+<div class="absolute bottom-4 left-4 right-4 text-on-primary">
+<p class="font-title-md text-title-md font-bold leading-tight">Solanum muricatum Premium</p>
+<p class="font-body-sm text-body-sm text-primary-fixed-dim">Kulit kuning semburat ungu pekat, kaya sari buah berkhasiat.</p>
+</div>
+</div>
+<!-- Guarantee Badges Footer on Card -->
+<div class="p-space-md grid grid-cols-2 gap-space-sm bg-surface-container-low rounded-lg mt-2">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-2xl">verified</span>
+<div>
+<div class="font-label-sm text-label-sm font-bold text-on-surface">Garansi Ganti Baru</div>
+<div class="font-body-sm text-[11px] text-on-surface-variant leading-none">100% jika buah pecah/rusak</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary-container text-2xl">nest_eco_leaf</span>
+<div>
+<div class="font-label-sm text-label-sm font-bold text-on-surface">Bebas Pestisida</div>
+<div class="font-body-sm text-[11px] text-on-surface-variant leading-none">Air pegunungan murni Dieng</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Decorative Floating Card -->
+<div class="hidden xl:flex absolute -bottom-6 -left-10 bg-surface-container-lowest p- space-sm rounded-xl shadow-xl items-center gap-space-sm max-w-xs animate-bounce" style="animation-duration: 4s;">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed shrink-0">
+<span class="material-symbols-outlined">health_and_safety</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm font-bold text-on-surface">Indeks Glikemik Rendah</p>
+<p class="font-body-sm text-[11px] text-on-surface-variant">Sangat aman untuk penderita gula darah.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Kebun Profile & Nilai Keunggulan -->
+<section class="w-full bg-surface-container py-space-xl" id="keunggulan">
+<div class="max-w-7xl mx-auto px-margin">
+<!-- Section Header -->
+<div class="max-w-2xl mx-auto text-center mb-space-xl flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold tracking-wider uppercase">Standar Budidaya Elof Farm</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Mengapa Pepino Elof Farm Terasa Berbeda?</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Ditanam di ketinggian 1.600 mdpl lereng vulkanik dengan mikroklimat sejuk dan pasokan air mata air pegunungan yang tidak terkontaminasi.
+        </p>
+</div>
+<!-- 4 Keunggulan Elof Farm Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">calendar_today</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Petik di Hari Pengiriman</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Kami tidak pernah menimbun stok di gudang pendingin lama. Pepino dipetik subuh setelah pesanan Anda masuk agar tiba dalam fase kesegaran puncak.
+          </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl">grade</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Sortasi Grade Super A</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Setiap buah melalui 3 lapis seleksi ketat: berat ideal (250–350g/buah), kulit halus mulus tanpa cacat ulat, dan garis ungu tua tanda matang pohon sejati.
+          </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-2xl">shield</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Double Safety Netting</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Tiap butir buah dibungkus busa jaring pelindung buah tebal dan dikemas dalam master box berdinding ganda tahan tumpuk untuk perjalanan darat maupun udara.
+          </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-error-container flex items-center justify-center text-on-error-container">
+<span class="material-symbols-outlined text-2xl">published_with_changes</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Garansi Ganti Buah Busuk</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Kenyamanan Anda adalah prioritas. Jika ada buah yang bonyok berlebihan atau rusak saat unboxing, kirim foto bukti dan kami kirim ulang tanpa dipungut biaya.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Manfaat Kesehatan Buah Pepino -->
+<section class="w-full bg-surface py-space-xl" id="manfaat">
+<div class="max-w-7xl mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Visual & Info Left (5 cols) -->
+<div class="lg:col-span-5 bg-primary rounded-2xl p-space-xl text-on-primary shadow-xl flex flex-col gap-space-md">
+<span class="font-label-sm text-label-sm text-tertiary-fixed font-bold tracking-widest uppercase">Keajaiban Buah Pepino</span>
+<h2 class="font-headline-lg text-headline-lg text-on-primary">Superfruit Hidrasi Tinggi yang Menyegarkan</h2>
+<p class="font-body-md text-body-md text-primary-fixed leading-relaxed">
+            Dikenal juga sebagai <em>Melon Pir</em>, pepino memiliki kandungan air alami lebih dari 92%, menjadikannya pilihan sempurna untuk pemulihan tubuh, program detox, hingga menu diet sehat harian.
+          </p>
+<div class="bg-primary-container p-space-md rounded-xl flex items-center gap-space-md mt-space-sm">
+<div class="text-3xl font-bold text-tertiary-fixed font-headline-lg">92%</div>
+<div class="font-body-sm text-body-sm text-surface-container-lowest">Kadar air kaya elektrolit alami pencegah dehidrasi &amp; panas dalam.</div>
+</div>
+</div>
+<!-- 4 Health Benefit Cards (7 cols) -->
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-gutter">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined">water_drop</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Mengontrol Gula Darah</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Kaya serat larut air dan rendah fruktosa murni. Sangat direkomendasikan bagi penderita diabetes melitus atau mereka yang sedang membatasi asupan glukosa.
+            </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-xs">
+<span class="material-symbols-outlined">favorite</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Menurunkan Tekanan Darah</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Tingginya kandungan kalium alami membantu menyeimbangkan kadar natrium dalam darah serta merilekskan pembuluh darah yang tegang.
+            </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-tertiary mb-space-xs">
+<span class="material-symbols-outlined">vital_signs</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Kaya Vitamin C &amp; Beta-Karoten</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Meningkatkan imunitas seluler tubuh, menangkal radikal bebas perkotaan, dan menjaga elastisitas kulit agar tetap cerah bercahaya alami.
+            </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-xs">
+<span class="material-symbols-outlined">cleaning_services</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Detoksifikasi &amp; Ginjal Sehat</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Sifat diuretik lembutnya membantu melancarkan pembuangan sisa metabolisme melalui saluran kemih tanpa membebani fungsi organ ginjal.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Pilihan Varian Paket (Pricing Cards) -->
+<section class="w-full bg-surface-container-low py-space-xl" id="paket-harga">
+<div class="max-w-7xl mx-auto px-margin">
+<!-- Section Header -->
+<div class="max-w-2xl mx-auto text-center mb-space-xl flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold tracking-wider uppercase">Pilihan Panen Segar</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Paket Buah Pepino Siap Kirim Hari Ini</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Pilih sesuai kebutuhan Anda, mulai dari kemasan icip-icip praktis hingga paket keluarga kaya manfaat dengan subsidi pengiriman.
+        </p>
+</div>
+<!-- 3 Pricing Cards Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter items-stretch">
+<!-- Paket 1: Coba (1 kg) -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm hover:shadow-md border-2 border-transparent transition-all duration-300 flex flex-col justify-between relative" id="card-paket-coba">
+<div class="hidden absolute -top-3.5 right-6 bg-[#3E0F8D] text-white px-3 py-1 rounded-full font-label-sm text-xs font-bold shadow-md flex items-center gap-1 z-10" id="badge-coba">
+<span class="material-symbols-outlined text-xs">check_circle</span>
+<span>Dipilih</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-semibold">Uji Rasa</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Isi 3-4 Butir</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Paket Coba Segar (1 kg)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Sangat pas untuk Anda yang baru pertama kali ingin mencicipi rasa eksotis buah pepino.</p>
+</div>
+<div class="pt-space-xs">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Harga Panen Kebun:</span>
+<div class="font-headline-lg text-headline-lg text-primary font-bold">Rp 45.000 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/ kg</span></div>
+</div>
+<!-- List Benefit -->
+<ul class="flex flex-col gap-space-sm pt-space-xs text-on-surface">
+<li class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Buah pepino segar matang pohon pilihan</span>
+</li>
+<li class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Single netting foam pelindung getaran</span>
+</li>
+<li class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Kemasan kardus bersekat kokoh</span>
+</li>
+</ul>
+</div>
+<div class="pt-space-lg">
+<button class="w-full py-3 rounded-lg bg-surface-container-high hover:bg-surface-variant text-primary font-label-md text-label-md transition-colors flex items-center justify-center gap-2" id="btn-card-coba" onclick="pilihPaket('coba', 45000, true)">
+<span class="material-symbols-outlined text-base">add_shopping_cart</span>
+<span class="btn-text">Pilih Paket Ini</span>
+</button>
+</div>
+</div>
+<!-- Paket 2: Hemat Keluarga (3 kg) - BEST SELLER -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-xl relative border-2 border-transparent transition-all duration-300 flex flex-col justify-between transform lg:-translate-y-2" id="card-paket-keluarga">
+<!-- Promo Ribbon -->
+<div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-primary text-on-primary px-4 py-1 rounded-full font-label-sm text-label-sm font-bold shadow-md flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">local_fire_department</span>
+<span>PALING LARIS / BEST SELLER</span>
+</div>
+<div class="hidden absolute -top-3.5 right-6 bg-[#3E0F8D] text-white px-3 py-1 rounded-full font-label-sm text-xs font-bold shadow-md flex items-center gap-1 z-10" id="badge-keluarga">
+<span class="material-symbols-outlined text-xs">check_circle</span>
+<span>Dipilih</span>
+</div>
+<div class="flex flex-col gap-space-md pt-2">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-secondary-fixed text-secondary font-label-sm text-label-sm font-bold">Hemat Rp 10.000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Isi 9-11 Butir</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Paket Hemat Keluarga (3 kg)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Cukupi asupan vitamin buah harian keluarga serumah selama 1 minggu penuh.</p>
+</div>
+<div class="pt-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-body-sm text-body-sm line-through text-outline">Rp 135.000</span>
+<span class="px-2 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-xs font-bold">Hemat 7%</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-primary font-bold">Rp 125.000 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/ 3 kg</span></div>
+</div>
+<!-- List Benefit -->
+<ul class="flex flex-col gap-space-sm pt-space-xs text-on-surface">
+<li class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Grade Super: ukuran lebih besar &amp; seragam</span>
+</li>
+<li class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Gratis Safety Double Box Packing</span>
+</li>
+<li class="flex items-center gap-space-xs font-body-sm text-body-sm font-semibold text-secondary">
+<span class="material-symbols-outlined text-secondary text-base">redeem</span>
+<span>BONUS: Buku Panduan Resep &amp; Jus Sehat</span>
+</li>
+<li class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Garansi Penggantian Penuh jika rusak di jalan</span>
+</li>
+</ul>
+</div>
+<div class="pt-space-lg">
+<button class="w-full py-3.5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-colors shadow-md flex items-center justify-center gap-2" id="btn-card-keluarga" onclick="pilihPaket('keluarga', 125000, true)">
+<span class="material-symbols-outlined text-base">shopping_cart_checkout</span>
+<span class="btn-text">Pilih Paket Keluarga Ini</span>
+</button>
+</div>
+</div>
+<!-- Paket 3: Reseller & Healthy Pantry (5 kg) -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm hover:shadow-md border-2 border-transparent transition-all duration-300 flex flex-col justify-between relative" id="card-paket-reseller">
+<div class="hidden absolute -top-3.5 right-6 bg-[#3E0F8D] text-white px-3 py-1 rounded-full font-label-sm text-xs font-bold shadow-md flex items-center gap-1 z-10" id="badge-reseller">
+<span class="material-symbols-outlined text-xs">check_circle</span>
+<span>Dipilih</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold">Paling Hemat</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Isi 15-18 Butir</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Paket Reseller &amp; Pantry (5 kg)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Solusi terbaik untuk stok kafe jus, reseller buah sehat, atau hampers kerabat terdekat.</p>
+</div>
+<div class="pt-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-body-sm text-body-sm line-through text-outline">Rp 225.000</span>
+<span class="px-2 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-xs font-bold">Hemat 13%</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-primary font-bold">Rp 195.000 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/ 5 kg</span></div>
+</div>
+<!-- List Benefit -->
+<ul class="flex flex-col gap-space-sm pt-space-xs text-on-surface">
+<li class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Subsidi Ongkir Rp 15.000 ke seluruh Indonesia</span>
+</li>
+<li class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Prioritas Sortir Grade A+ Pertama</span>
+</li>
+<li class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Packing Kayu/Karton Rigid khusus Ekspedisi Jauh</span>
+</li>
+<li class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Bebas Konsultasi Penyimpanan Jangka Panjang</span>
+</li>
+</ul>
+</div>
+<div class="pt-space-lg">
+<button class="w-full py-3 rounded-lg bg-surface-container-high hover:bg-surface-variant text-primary font-label-md text-label-md transition-colors flex items-center justify-center gap-2" id="btn-card-reseller" onclick="pilihPaket('reseller', 195000, true)">
+<span class="material-symbols-outlined text-base">local_shipping</span>
+<span class="btn-text">Pilih Paket Reseller Ini</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimoni & Galeri Petik Kebun -->
+<section class="w-full bg-surface py-space-xl" id="testimoni">
+<div class="max-w-7xl mx-auto px-margin">
+<!-- Section Header -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md mb-space-xl">
+<div class="flex flex-col gap-space-xs max-w-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold tracking-wider uppercase">Kepuasan Pelanggan Nyata</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Dipercaya Lebih dari 380+ Konsumen</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Ulasan jujur dari keluarga, dokter, dan penikmat buah segar di berbagai penjuru nusantara.
+          </p>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-center gap-space-md">
+<div class="text-3xl font-bold text-primary font-headline-lg">4.9<span class="text-sm font-normal text-on-surface-variant">/5.0</span></div>
+<div class="flex flex-col">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Berdasarkan 384+ ulasan pesanan terverifikasi</span>
+</div>
+</div>
+</div>
+<!-- Testimonial Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter mb-space-xl">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              "Awalnya ragu beli buah online takut hancur di jalan. Tapi paket dari Elof Farm dibungkus jaring busa tebal banget! Pas dibelah, aromanya semerbak seperti melon dingin. Manisnya soft dan segar banget!"
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-primary">IR</div>
+<div>
+<div class="font-title-md text-title-md text-on-surface">Ibu Ratna K.</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Jakarta Selatan — Pesan Paket 3 kg</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              "Sebagai dokter saya rutin konsumsi buah pepino untuk menjaga tensi dan hidrasi harian. Kualitas Elof Farm sangat stabil, buah tidak pernah ada yang busuk dan tingkat kematangan pohonnya pas."
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-secondary">DH</div>
+<div>
+<div class="font-title-md text-title-md text-on-surface">dr. Hendra S.</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Surabaya — Pesan Langganan 5 kg</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              "Cocok buat program diet rendah gula. Dibuat jus pepino dicampur perasan jeruk nipis dingin bener-bener nikmat luar biasa. Resep bonus dari Elof Farm ngebantu banget!"
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center font-bold text-on-tertiary-fixed">RS</div>
+<div>
+<div class="font-title-md text-title-md text-on-surface">Rina Safitri</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Bandung — Pesan Paket 3 kg</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Galeri Foto Dokumentasi Kebun -->
+<div class="bg-surface-container p-space-lg rounded-2xl">
+<div class="flex items-center justify-between mb-space-md">
+<h3 class="font-headline-sm text-headline-sm text-primary">Dokumentasi Petik &amp; Pengemasan Terkini</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">photo_camera</span> Update Kebun Hari Ini
+          </span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md">
+<div class="relative rounded-xl overflow-hidden shadow-sm h-52 group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Indonesian farmers in Dieng mountain highland picking ripe striped yellow pepino melon fruits from lush green bushes under soft morning mist and bright natural sunlight, documentary agriculture photo." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1q6AoTp4im39HIeLTmWCTFtCif7R_LH_eQRjG1YQXJtb6qn00hoZpgLnipn4WBflQ4UQ8PyfQk-_aofjDexOoqEhppnzzP5Tyejj6yMoQ8Zj2AKyMdMMoQlO3E0fjG2nI-GXFh5-6cDjrdeGoRv8IIXxw9l4Ylh72RI59aW1BkSD_8nhKiWvxaEJqtsz_AQ6wl4KwyrnIUQJ_eY6PJ4fqVxKcjd83YfthxFsAKdR_oSBR2JknrH87lQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-3 text-on-primary font-label-md text-label-md font-semibold">1. Petik Subuh di Ladang</div>
+</div>
+<div class="relative rounded-xl overflow-hidden shadow-sm h-52 group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Agricultural quality control worker carefully weighing fresh yellow pepino fruits on digital scale inside clean warehouse with neat wooden harvest crates, natural light, professional farm photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzXeQ-L8d7BLi5ieUIao9yEU1MiXAbq3t6AjdVr3Mol-Un1nXYMvKXLpuE7igTTvxoETwaSH22ojrn-enMTyqVM9XR_Yu7ReK0CMtEZMduv3zR6tosqIHYu2T0ahKf-DeAJ-B0f8KwpLbmAg-u_bG_jVq7ODE9YPV-yW5fSsWlf8DAC-O8u8WFDS_5HSQzInDeqe1mmCm5QQ1vB6iIeZ6RuE3vbF7g3ggoSNTDGeNbwuD_vx8IumTf5Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-3 text-on-primary font-label-md text-label-md font-semibold">2. Sortasi Akurat &amp; Penimbangan</div>
+</div>
+<div class="relative rounded-xl overflow-hidden shadow-sm h-52 group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Neat packing process of exotic pepino fruits wrapped with thick white protective fruit netting inside sturdy branded corrugated delivery carton boxes, high hygiene standards." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPgCQRzVB7GcrhbqtAL9em5lVeMi3g3kCouxP9zspJFuJ0PU6Ls_54RDVe_WX6rGyHOXldt-7RJZyf4h4xnMefXR6v8I6zCng4HH29DEm9llNEX49Pnb4mfRqn7rDiLr-hKK_Gu1_8a0tGXegD3nqow-KBwyHIk0wiuZI1Apy5PKiF7LrnjbzBYzbRt3Pn5OEVfIUZCSPpQOjKC1PlEsUteciIcapdzPIVMgAz4W7TJVRGeE6CwdzpUA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-3 text-on-primary font-label-md text-label-md font-semibold">3. Lapisan Foam &amp; Double Box</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Checkout WhatsApp Terintegrasi (Formulir Order Cepat) -->
+<section class="w-full bg-surface-container-high py-space-xl" id="order-cepat">
+<div class="max-w-5xl mx-auto px-margin">
+<!-- Form Container Card -->
+<div class="bg-surface-container-lowest rounded-2xl shadow-xl p-space-lg lg:p-space-xl">
+<div class="text-center max-w-xl mx-auto mb-space-lg flex flex-col gap-space-xs">
+<div class="inline-flex items-center justify-center gap-1.5 px-3 py-1 rounded-full bg-secondary-fixed text-secondary font-label-sm text-label-sm font-semibold mx-auto">
+<span class="material-symbols-outlined text-sm">flash_on</span> Checkout Praktis Tanpa Ribet Akun
+          </div>
+<h2 class="font-headline-lg text-headline-lg text-primary">Formulir Pemesanan Cepat</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Isi formulir di bawah ini dengan kalkulator ongkir otomatis, lalu klik tombol hijau untuk mengirim format pesanan resmi langsung ke WhatsApp Admin Kebun Elof Farm.
+          </p>
+</div>
+<form class="grid grid-cols-1 md:grid-cols-2 gap-space-md" id="orderForm" onsubmit="handleOrderSubmit(event)">
+<!-- Nama Pemesan -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface" for="nama_pemesan">Nama Lengkap Pemesan <span class="text-error">*</span></label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-outline text-lg">person</span>
+<input class="w-full pl-10 pr-4 py-2.5 rounded-lg bg-surface-container-lowest text-on-surface border border-outline-variant/60 focus:border-primary placeholder:text-outline-variant font-body-md text-body-md focus:outline-none focus:bg-surface-container-low transition-colors" id="nama_pemesan" oninput="updateWhatsAppPreview()" placeholder="Contoh: Budi Santoso" required="" type="text"/>
+</div>
+</div>
+<!-- Nomor WhatsApp -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface" for="nomor_whatsapp">Nomor WhatsApp Aktif <span class="text-error">*</span></label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-outline text-lg">phone_iphone</span>
+<input class="w-full pl-10 pr-4 py-2.5 rounded-lg bg-surface-container-lowest text-on-surface border border-outline-variant/60 focus:border-primary placeholder:text-outline-variant font-body-md text-body-md focus:outline-none focus:bg-surface-container-low transition-colors" id="nomor_whatsapp" oninput="updateWhatsAppPreview()" placeholder="Contoh: 081234567890" required="" type="tel"/>
+</div>
+</div>
+<!-- Kota & Kecamatan -->
+<div class="flex flex-col gap-1.5 md:col-span-2">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="kota_kecamatan">Kota &amp; Kecamatan Pengiriman <span class="text-error">*</span></label>
+<span class="font-label-sm text-xs text-secondary font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">local_shipping</span> Estimasi Ongkir Otomatis
+</span>
+</div>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-outline text-lg">location_on</span>
+<input autocomplete="off" class="w-full pl-10 pr-4 py-2.5 rounded-lg bg-surface-container-lowest text-on-surface border border-outline-variant/60 focus:border-primary placeholder:text-outline-variant font-body-md text-body-md focus:outline-none focus:bg-surface-container-low transition-colors" id="kota_kecamatan" list="kota-list" oninput="handleKotaInput(this.value)" placeholder="Ketik atau pilih kota pengiriman..." required="" type="text" value="Jakarta Selatan, Kebayoran Baru"/>
+<datalist id="kota-list">
+<option value="Jakarta Selatan, Kebayoran Baru"></option>
+<option value="Jakarta Pusat, Menteng"></option>
+<option value="Jakarta Barat, Kebon Jeruk"></option>
+<option value="Jakarta Timur, Rawamangun"></option>
+<option value="Jakarta Utara, Kelapa Gading"></option>
+<option value="Surabaya, Gubeng"></option>
+<option value="Bandung, Coblong"></option>
+<option value="Medan, Medan Baru"></option>
+<option value="Tangerang Selatan, Serpong"></option>
+<option value="Semarang, Candisari"></option>
+<option value="Malang, Klojen"></option>
+<option value="Yogyakarta, Gondokusuman"></option>
+<option value="Bekasi, Bekasi Barat"></option>
+<option value="Depok, Sukmajaya"></option>
+</datalist>
+</div>
+<!-- Quick Select Pills -->
+<div class="flex flex-wrap items-center gap-1.5 pt-1">
+<span class="font-label-sm text-[11px] text-on-surface-variant shrink-0">Pilihan Cepat:</span>
+<button class="px-2.5 py-1 rounded-full bg-surface-container hover:bg-primary-fixed hover:text-primary text-[11px] font-medium text-on-surface transition-all cursor-pointer" onclick="pilihKotaCepat('Jakarta Selatan, Kebayoran Baru')" type="button">Jakarta Selatan</button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container hover:bg-primary-fixed hover:text-primary text-[11px] font-medium text-on-surface transition-all cursor-pointer" onclick="pilihKotaCepat('Surabaya, Gubeng')" type="button">Surabaya</button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container hover:bg-primary-fixed hover:text-primary text-[11px] font-medium text-on-surface transition-all cursor-pointer" onclick="pilihKotaCepat('Bandung, Coblong')" type="button">Bandung</button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container hover:bg-primary-fixed hover:text-primary text-[11px] font-medium text-on-surface transition-all cursor-pointer" onclick="pilihKotaCepat('Tangerang Selatan, Serpong')" type="button">Tangsel</button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container hover:bg-primary-fixed hover:text-primary text-[11px] font-medium text-on-surface transition-all cursor-pointer" onclick="pilihKotaCepat('Semarang, Candisari')" type="button">Semarang</button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container hover:bg-primary-fixed hover:text-primary text-[11px] font-medium text-on-surface transition-all cursor-pointer" onclick="pilihKotaCepat('Malang, Klojen')" type="button">Malang</button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container hover:bg-primary-fixed hover:text-primary text-[11px] font-medium text-on-surface transition-all cursor-pointer" onclick="pilihKotaCepat('Medan, Medan Baru')" type="button">Medan</button>
+</div>
+<span class="font-body-sm text-[12px] text-on-surface-variant">Tarif ongkir disesuaikan otomatis dengan estimasi jarak dari kebun dataran tinggi Elof Farm.</span>
+</div>
+<!-- Pilihan Paket Pepino (Interactive Radio Cards) -->
+<div class="flex flex-col gap-2 md:col-span-2">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Pilih Paket Buah Pepino <span class="text-error">*</span></label>
+<span class="font-label-sm text-xs text-secondary font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">touch_app</span> Klik opsi paket di bawah
+</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm" id="paket-options-container">
+<!-- Opsi 1: Coba 1 kg -->
+<button class="group text-left p-3.5 rounded-xl border-2 border-outline-variant/50 hover:border-[#3E0F8D]/60 bg-surface-container-lowest transition-all duration-200 flex flex-col justify-between cursor-pointer focus:outline-none relative" id="opt-paket-coba" onclick="pilihPaket('coba', 45000, false)" type="button">
+<div class="flex items-start justify-between gap-2 mb-1.5">
+<span class="font-title-md text-title-md font-bold text-on-surface group-hover:text-primary">Paket Coba 1 kg</span>
+<span class="w-5 h-5 rounded-full border-2 border-outline-variant/60 flex items-center justify-center text-white shrink-0 transition-colors" id="check-icon-coba">
+<span class="material-symbols-outlined text-sm hidden font-bold">check</span>
+</span>
+</div>
+<div class="flex items-baseline justify-between mt-auto">
+<span class="font-headline-sm text-lg text-primary font-bold">Rp 45.000</span>
+<span class="font-label-sm text-[11px] text-on-surface-variant">Isi 3-4 Butir</span>
+</div>
+</button>
+<!-- Opsi 2: Hemat Keluarga 3 kg (Default / Best Seller) -->
+<button class="group text-left p-3.5 rounded-xl border-2 border-[#3E0F8D] bg-[#f3eeff] transition-all duration-200 flex flex-col justify-between cursor-pointer focus:outline-none relative shadow-sm ring-1 ring-[#3E0F8D]/20" id="opt-paket-keluarga" onclick="pilihPaket('keluarga', 125000, false)" type="button">
+<div class="flex items-start justify-between gap-2 mb-1.5">
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-title-md text-title-md font-bold text-primary">Paket Hemat Keluarga 3 kg</span>
+<span class="text-amber-500 text-sm">⭐</span>
+</div>
+<span class="text-[11px] text-secondary font-semibold">Paling Populer &amp; Hemat</span>
+</div>
+<span class="w-5 h-5 rounded-full bg-[#3E0F8D] border-2 border-[#3E0F8D] flex items-center justify-center text-white shrink-0 transition-colors" id="check-icon-keluarga">
+<span class="material-symbols-outlined text-sm font-bold">check</span>
+</span>
+</div>
+<div class="flex items-baseline justify-between mt-auto">
+<span class="font-headline-sm text-lg text-primary font-bold">Rp 125.000</span>
+<span class="font-label-sm text-[11px] text-on-surface-variant">Isi 9-11 Butir</span>
+</div>
+</button>
+<!-- Opsi 3: Reseller 5 kg -->
+<button class="group text-left p-3.5 rounded-xl border-2 border-outline-variant/50 hover:border-[#3E0F8D]/60 bg-surface-container-lowest transition-all duration-200 flex flex-col justify-between cursor-pointer focus:outline-none relative" id="opt-paket-reseller" onclick="pilihPaket('reseller', 195000, false)" type="button">
+<div class="flex items-start justify-between gap-2 mb-1.5">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-bold text-on-surface group-hover:text-primary">Paket Reseller 5 kg</span>
+<span class="text-[11px] text-tertiary font-semibold">Subsidi Ongkir Rp 15rb</span>
+</div>
+<span class="w-5 h-5 rounded-full border-2 border-outline-variant/60 flex items-center justify-center text-white shrink-0 transition-colors" id="check-icon-reseller">
+<span class="material-symbols-outlined text-sm hidden font-bold">check</span>
+</span>
+</div>
+<div class="flex items-baseline justify-between mt-auto">
+<span class="font-headline-sm text-lg text-primary font-bold">Rp 195.000</span>
+<span class="font-label-sm text-[11px] text-on-surface-variant">Isi 15-18 Butir</span>
+</div>
+</button>
+</div>
+</div>
+<!-- Jumlah Paket Counter & Ringkasan Subtotal -->
+<div class="flex flex-col gap-1.5 md:col-span-2 bg-surface-container-low p-3.5 rounded-xl border border-outline-variant/40 sm:flex-row sm:items-center sm:justify-between gap-y-3">
+<div class="flex flex-col">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="jumlah_paket">Jumlah Paket</label>
+<span class="font-body-sm text-xs text-on-surface-variant">Sesuaikan kuantitas pemesanan</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex items-center">
+<button class="w-10 h-10 rounded-l-lg bg-surface-container hover:bg-surface-variant text-on-surface flex items-center justify-center font-bold text-lg select-none transition-colors cursor-pointer" onclick="ubahJumlah(-1)" type="button">-</button>
+<input class="w-14 text-center py-2 bg-surface-container-lowest text-on-surface font-bold font-body-md text-body-md border-y border-outline-variant/40 focus:outline-none" id="jumlah_paket" max="20" min="1" readonly="" type="number" value="1"/>
+<button class="w-10 h-10 rounded-r-lg bg-surface-container hover:bg-surface-variant text-on-surface flex items-center justify-center font-bold text-lg select-none transition-colors cursor-pointer" onclick="ubahJumlah(1)" type="button">+</button>
+</div>
+<div class="text-right border-l border-outline-variant/40 pl-4 min-w-[140px]">
+<div class="font-label-sm text-xs text-on-surface-variant">Subtotal Buah:</div>
+<div class="font-headline-sm text-primary font-bold" id="subtotalDisplay">Rp 125.000</div>
+</div>
+</div>
+</div>
+<!-- ================= KALKULATOR ONGKOS KIRIM INTERAKTIF ================= -->
+<div class="md:col-span-2 bg-surface-container-low p-4 sm:p-5 rounded-2xl border-2 border-outline-variant/40 flex flex-col gap-4" id="shippingCalculatorSection">
+<!-- Header Kalkulator -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-outline-variant/30 pb-3">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-lg bg-primary text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-lg">local_shipping</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-primary font-bold">Kalkulator Ongkos Kirim Otomatis</h3>
+<p class="font-body-sm text-xs text-on-surface-variant">Tarif ekspedisi dihitung langsung berdasarkan berat total &amp; opsi kurir</p>
+</div>
+</div>
+<!-- Berat Total Badge -->
+<div class="flex items-center gap-2 self-start sm:self-auto bg-surface-container-lowest px-3 py-1.5 rounded-full border border-outline-variant/40 shadow-sm">
+<span class="material-symbols-outlined text-base text-secondary">scale</span>
+<span class="font-label-sm text-xs text-on-surface">Total Berat:</span>
+<span class="font-label-md text-xs font-bold text-primary" id="badgeTotalBerat">3 kg</span>
+</div>
+</div>
+<!-- Banner Subsidi Ongkir -->
+<div class="p-3 rounded-xl bg-tertiary-fixed/30 border border-tertiary-fixed text-on-surface flex items-start gap-2.5 text-xs">
+<span class="material-symbols-outlined text-base text-tertiary shrink-0 mt-0.5">verified</span>
+<div class="flex-1">
+<strong class="font-bold text-on-surface">Subsidi Ongkos Kirim Kebun:</strong>
+<span id="subsidiBannerText"> Anda mendapatkan subsidi ongkir <strong>Rp 10.000</strong> untuk pembelian paket ini!</span>
+</div>
+</div>
+<!-- Pilihan Kurir Pengiriman (Interactive Selection) -->
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-xs sm:text-sm font-semibold text-on-surface">Pilih Ekspedisi / Kurir Pengiriman:</label>
+<span class="text-xs text-secondary font-medium">Semua dilengkapi packing aman</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3" id="kurirOptionsContainer">
+<!-- Opsi 1: Paxel Cold Chain (Rekomendasi Utama) -->
+<div class="relative group p-3.5 rounded-xl border-2 border-[#3E0F8D] bg-[#f3eeff] cursor-pointer transition-all duration-200 flex flex-col justify-between" id="card-kurir-paxel" onclick="pilihKurir('paxel')">
+<div class="absolute -top-2.5 right-3 bg-secondary text-white px-2 py-0.5 rounded-full text-[10px] font-bold tracking-wide flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[11px]">ac_unit</span> Suhu Sejuk
+</div>
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="w-4 h-4 rounded-full border-2 border-[#3E0F8D] bg-[#3E0F8D] flex items-center justify-center text-white shrink-0" id="radio-kurir-paxel">
+<span class="w-1.5 h-1.5 rounded-full bg-white"></span>
+</span>
+<div>
+<div class="font-title-md text-xs sm:text-sm font-bold text-primary">Paxel Cold Chain</div>
+<div class="text-[11px] text-on-surface-variant">Suhu sejuk chiller, 1 Hari</div>
+</div>
+</div>
+</div>
+<div class="mt-3 pt-2 border-t border-outline-variant/30 flex items-baseline justify-between">
+<div class="text-[11px] text-on-surface-variant">Tarif (per kg): <span class="font-semibold text-on-surface">Rp 22.000</span></div>
+<div class="font-title-md text-xs sm:text-sm font-bold text-primary" id="ongkir-paxel-total">Rp 66.000</div>
+</div>
+</div>
+<!-- Opsi 2: SiCepat / Anteraja Express Next Day -->
+<div class="relative group p-3.5 rounded-xl border-2 border-outline-variant/50 hover:border-[#3E0F8D]/60 bg-surface-container-lowest cursor-pointer transition-all duration-200 flex flex-col justify-between" id="card-kurir-sicepat" onclick="pilihKurir('sicepat')">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="w-4 h-4 rounded-full border-2 border-outline-variant/60 flex items-center justify-center shrink-0" id="radio-kurir-sicepat">
+<span class="w-1.5 h-1.5 rounded-full bg-transparent"></span>
+</span>
+<div>
+<div class="font-title-md text-xs sm:text-sm font-bold text-on-surface">SiCepat / Express</div>
+<div class="text-[11px] text-on-surface-variant">Next-Day Cepat, 1-2 Hari</div>
+</div>
+</div>
+</div>
+<div class="mt-3 pt-2 border-t border-outline-variant/30 flex items-baseline justify-between">
+<div class="text-[11px] text-on-surface-variant">Tarif (per kg): <span class="font-semibold text-on-surface">Rp 18.000</span></div>
+<div class="font-title-md text-xs sm:text-sm font-bold text-primary" id="ongkir-sicepat-total">Rp 54.000</div>
+</div>
+</div>
+<!-- Opsi 3: JNE / J&T Regular -->
+<div class="relative group p-3.5 rounded-xl border-2 border-outline-variant/50 hover:border-[#3E0F8D]/60 bg-surface-container-lowest cursor-pointer transition-all duration-200 flex flex-col justify-between" id="card-kurir-regular" onclick="pilihKurir('regular')">
+<div class="flex items-start justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="w-4 h-4 rounded-full border-2 border-outline-variant/60 flex items-center justify-center shrink-0" id="radio-kurir-regular">
+<span class="w-1.5 h-1.5 rounded-full bg-transparent"></span>
+</span>
+<div>
+<div class="font-title-md text-xs sm:text-sm font-bold text-on-surface">JNE / J&amp;T Regular</div>
+<div class="text-[11px] text-on-surface-variant">Ekspedisi Reguler, 2-3 Hari</div>
+</div>
+</div>
+</div>
+<div class="mt-3 pt-2 border-t border-outline-variant/30 flex items-baseline justify-between">
+<div class="text-[11px] text-on-surface-variant">Tarif (per kg): <span class="font-semibold text-on-surface">Rp 12.000</span></div>
+<div class="font-title-md text-xs sm:text-sm font-bold text-primary" id="ongkir-regular-total">Rp 36.000</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Ringkasan Rincian Biaya (Receipt Breakdown) -->
+<div class="bg-surface-container-lowest rounded-xl p-4 border border-outline-variant/40 shadow-sm flex flex-col gap-2.5">
+<div class="flex items-center justify-between text-xs sm:text-sm text-on-surface-variant">
+<span>Subtotal Buah (<span id="calcItemQtyLabel">1 Paket @ 3 kg</span>):</span>
+<span class="font-semibold text-on-surface" id="calcSubtotalBuah">Rp 125.000</span>
+</div>
+<div class="flex items-center justify-between text-xs sm:text-sm text-on-surface-variant">
+<span class="flex items-center gap-1">
+  Ongkir (<span id="calcKurirLabel">Paxel Cold Chain</span> • <span id="calcBeratLabel">3 kg</span>):
+</span>
+<span class="font-semibold text-on-surface" id="calcBiayaOngkir">Rp 66.000</span>
+</div>
+<div class="flex items-center justify-between text-xs sm:text-sm text-emerald-700 font-medium">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">savings</span> Subsidi Ongkir Kebun:
+</span>
+<span class="font-bold" id="calcSubsidiOngkir">- Rp 10.000</span>
+</div>
+<div class="border-t border-dashed border-outline-variant/60 my-1"></div>
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-title-md text-xs sm:text-sm font-bold text-on-surface">TOTAL ESTIMASI PEMBAYARAN:</span>
+<span class="text-[11px] text-on-surface-variant">Buah segar + ongkir setelah subsidi</span>
+</div>
+<span class="font-headline-sm text-xl sm:text-2xl font-bold text-[#3E0F8D]" id="calcGrandTotal">Rp 181.000</span>
+</div>
+</div>
+</div>
+<!-- ================= END KALKULATOR ONGKOS KIRIM ================= -->
+<!-- Catatan Khusus Pesanan -->
+<div class="flex flex-col gap-1.5 md:col-span-2">
+<label class="font-label-md text-label-md text-on-surface" for="catatan_pesanan">Catatan Tambahan (Opsional)</label>
+<textarea class="w-full p-3 rounded-lg bg-surface-container-lowest text-on-surface border border-outline-variant/60 focus:border-primary placeholder:text-outline-variant font-body-md text-body-md focus:outline-none focus:bg-surface-container-low transition-colors" id="catatan_pesanan" oninput="updateWhatsAppPreview()" placeholder="Contoh: Tolong pilihkan yang sudah siap santap besok, buat orang tua yang sedang pemulihan." rows="2"></textarea>
+</div>
+<!-- Preview Chat WhatsApp Box -->
+<div class="md:col-span-2 bg-[#EFEAE2] p-space-md rounded-xl shadow-inner mt-space-xs transition-all duration-300" id="waPreviewBox">
+<div class="flex items-center justify-between mb-2 text-[#075E54]">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-lg">visibility</span>
+<span class="font-label-sm text-label-sm font-bold uppercase tracking-wider">Preview Pesan WhatsApp Otomatis:</span>
+</div>
+<span class="text-xs font-semibold bg-[#25D366]/20 text-[#075E54] px-2 py-0.5 rounded-full flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-[#25D366] animate-pulse"></span> Sinkron Otomatis
+</span>
+</div>
+<div class="bg-white p-space-md rounded-lg shadow-sm font-body-sm text-body-sm text-gray-800 font-mono whitespace-pre-wrap leading-relaxed transition-colors duration-300" id="waPreviewText">
+Halo Kebun Elof Farm, saya ingin memesan buah pepino segar:
+
+• Nama: -
+• No. HP: -
+• Kota / Alamat Pengiriman: Jakarta Selatan, Kebayoran Baru
+• Pilihan Paket: Paket Hemat Keluarga 3 kg (Rp 125.000)
+• Jumlah: 1 Paket (Total 3 kg)
+• Ekspedisi Pilihan: Paxel Cold Chain (1 Hari)
+• Subtotal Buah: Rp 125.000
+• Ongkos Kirim: Rp 66.000
+• Subsidi Ongkir Kebun: - Rp 10.000
+• TOTAL ESTIMASI: Rp 181.000
+• Catatan: -
+
+Mohon konfirmasi pesanan dan nomor rekening pembayarannya ya. Terima kasih!
+            </div>
+</div>
+<!-- Submit Action -->
+<div class="md:col-span-2 flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-emerald-600">lock</span>
+<span class="font-body-sm text-body-sm">Data Anda aman. Admin kami akan langsung merespons total biaya + subsidi ongkir resmi.</span>
+</div>
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm px-space-xl py-4 rounded-full bg-[#25D366] text-on-error font-title-md text-title-md shadow-lg shadow-emerald-500/25 hover:brightness-105 active:scale-95 transition-all shrink-0 cursor-pointer" id="btnSubmitOrder" type="submit">
+<span class="material-symbols-outlined text-2xl leading-none">send</span>
+<span>Lanjut ke WhatsApp (Order Otomatis)</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- FAQ Singkat -->
+<section class="w-full bg-surface py-space-xl" id="faq">
+<div class="max-w-4xl mx-auto px-margin">
+<div class="text-center mb-space-lg flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-bold tracking-wider uppercase">Tanya Jawab</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Pertanyaan yang Sering Diajukan</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Semua hal yang perlu Anda ketahui mengenai pengiriman, garansi, dan konsumsi buah pepino Elof Farm.
+        </p>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- FAQ Item 1 -->
+<details class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm group">
+<summary class="flex items-center justify-between font-title-md text-title-md text-on-surface cursor-pointer select-none">
+<span>Bagaimana garansi kesegaran &amp; klaim jika buah rusak saat sampai?</span>
+<span class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-space-sm leading-relaxed">
+            Kami memberikan <strong>Garansi 100% Ganti Baru</strong>. Jika ada buah yang pecah parah atau busuk berlebih akibat kelalaian kurir, cukup rekam video singkat atau foto unboxing paket dalam 1x24 jam setelah tiba, dan kirimkan ke WhatsApp kami. Buah pengganti akan kami kirimkan gratis di panen berikutnya.
+          </p>
+</details>
+<!-- FAQ Item 2 -->
+<details class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm group">
+<summary class="flex items-center justify-between font-title-md text-title-md text-on-surface cursor-pointer select-none">
+<span>Berapa lama daya tahan buah pepino selama pengiriman dan di rumah?</span>
+<span class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-space-sm leading-relaxed">
+            Buah pepino memiliki kulit yang cukup kokoh. Dalam suhu ruang pengiriman, buah mampu bertahan <strong>5–7 hari</strong> perjalanan. Begitu sampai dan disimpan di dalam kulkas chiller (bukan freezer), pepino bisa bertahan tetap segar dan renyah hingga <strong>14 hari</strong>.
+          </p>
+</details>
+<!-- FAQ Item 3 -->
+<details class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm group">
+<summary class="flex items-center justify-between font-title-md text-title-md text-on-surface cursor-pointer select-none">
+<span>Bagaimana cara terbaik menikmati buah pepino agar khasiatnya optimal?</span>
+<span class="material-symbols-outlined text-outline group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-space-sm leading-relaxed">
+            Buah pepino paling nikmat disantap saat <strong>kondisi dingin</strong>. Cukup kupas tipis kulitnya, buang biji halusnya di bagian tengah (seperti melon), lalu potong dadu. Sangat enak dimakan langsung, dicampur chia seed, dibuat infused water, atau dijus bersama sedikit perasan jeruk nipis tanpa gula tambahan.
+          </p>
+</details>
+</div>
+</div>
+</section>
+<!-- Floating WhatsApp Quick Button -->
+<aside class="fixed bottom-6 right-6 z-40">
+<a class="flex items-center gap-space-xs bg-[#25D366] text-on-error px-4 py-3 rounded-full shadow-2xl hover:scale-105 transition-all group" href="https://wa.me/?text=Halo%20Admin%20Kebun%20Elof%20Farm,%20saya%20ingin%20tanya%20stok%20panen%20pepino%20hari%20ini" rel="noopener" target="_blank">
+<div class="relative">
+<span class="material-symbols-outlined text-2xl leading-none">chat</span>
+<span class="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-white ring-2 ring-[#25D366]"></span>
+</div>
+<div class="hidden sm:flex flex-col text-left">
+<span class="font-label-sm text-xs opacity-90 leading-tight">Admin Online</span>
+<span class="font-title-md text-label-md font-bold leading-tight">Konsultasi Kebun / CS</span>
+</div>
+</a>
+</aside>
+</div>
+<!-- Inline JavaScript for Reactive Form, Shipping Calculator & Interaction -->
+<script>
+  // State manajemen paket & berat
+  const paketData = {
+    coba: {
+      key: 'coba',
+      name: 'Paket Coba 1 kg (Rp 45.000)',
+      label: 'Paket Coba 1 kg',
+      weightKg: 1,
+      price: 45000,
+      cardId: 'card-paket-coba',
+      optId: 'opt-paket-coba',
+      badgeId: 'badge-coba',
+      btnId: 'btn-card-coba',
+      btnText: 'Pilih Paket Ini'
+    },
+    keluarga: {
+      key: 'keluarga',
+      name: 'Paket Hemat Keluarga 3 kg (Rp 125.000)',
+      label: 'Paket Hemat Keluarga 3 kg',
+      weightKg: 3,
+      price: 125000,
+      cardId: 'card-paket-keluarga',
+      optId: 'opt-paket-keluarga',
+      badgeId: 'badge-keluarga',
+      btnId: 'btn-card-keluarga',
+      btnText: 'Pilih Paket Keluarga Ini'
+    },
+    reseller: {
+      key: 'reseller',
+      name: 'Paket Reseller & Pantry 5 kg (Rp 195.000)',
+      label: 'Paket Reseller 5 kg',
+      weightKg: 5,
+      price: 195000,
+      cardId: 'card-paket-reseller',
+      optId: 'opt-paket-reseller',
+      badgeId: 'badge-reseller',
+      btnId: 'btn-card-reseller',
+      btnText: 'Pilih Paket Reseller Ini'
+    }
+  };
+
+  // Data tarif kurir per kg
+  const kurirData = {
+    paxel: {
+      key: 'paxel',
+      name: 'Paxel Cold Chain (1 Hari)',
+      baseRatePerKg: 22000,
+      badge: 'Suhu Sejuk Chiller'
+    },
+    sicepat: {
+      key: 'sicepat',
+      name: 'SiCepat / Express (1-2 Hari)',
+      baseRatePerKg: 18000,
+      badge: 'Next Day Cepat'
+    },
+    regular: {
+      key: 'regular',
+      name: 'JNE / J&T Regular (2-3 Hari)',
+      baseRatePerKg: 12000,
+      badge: 'Reguler'
+    }
+  };
+
+  let activePaketKey = 'keluarga';
+  let activeKurirKey = 'paxel';
+
+  function formatRupiah(num) {
+    return 'Rp ' + Math.max(0, num).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+  }
+
+  function ubahJumlah(delta) {
+    const input = document.getElementById('jumlah_paket');
+    let val = parseInt(input.value) || 1;
+    val += delta;
+    if (val < 1) val = 1;
+    if (val > 20) val = 20;
+    input.value = val;
+    updateWhatsAppPreview();
+  }
+
+  function pilihKotaCepat(cityName) {
+    const input = document.getElementById('kota_kecamatan');
+    if (input) {
+      input.value = cityName;
+      handleKotaInput(cityName);
+    }
+  }
+
+  function handleKotaInput(val) {
+    updateWhatsAppPreview();
+  }
+
+  function pilihKurir(kurirKey) {
+    if (!kurirData[kurirKey]) return;
+    activeKurirKey = kurirKey;
+
+    // Update UI seleksi kurir
+    const list = ['paxel', 'sicepat', 'regular'];
+    list.forEach(k => {
+      const card = document.getElementById(`card-kurir-${k}`);
+      const radio = document.getElementById(`radio-kurir-${k}`);
+      if (!card || !radio) return;
+
+      if (k === kurirKey) {
+        card.className = "relative group p-3.5 rounded-xl border-2 border-[#3E0F8D] bg-[#f3eeff] cursor-pointer transition-all duration-200 flex flex-col justify-between shadow-sm ring-1 ring-[#3E0F8D]/20";
+        radio.className = "w-4 h-4 rounded-full border-2 border-[#3E0F8D] bg-[#3E0F8D] flex items-center justify-center text-white shrink-0";
+        radio.innerHTML = '<span class="w-1.5 h-1.5 rounded-full bg-white"></span>';
+      } else {
+        card.className = "relative group p-3.5 rounded-xl border-2 border-outline-variant/50 hover:border-[#3E0F8D]/60 bg-surface-container-lowest cursor-pointer transition-all duration-200 flex flex-col justify-between";
+        radio.className = "w-4 h-4 rounded-full border-2 border-outline-variant/60 flex items-center justify-center shrink-0";
+        radio.innerHTML = '<span class="w-1.5 h-1.5 rounded-full bg-transparent"></span>';
+      }
+    });
+
+    updateWhatsAppPreview();
+  }
+
+  function pilihPaket(key, price, shouldScroll = false) {
+    if (!paketData[key]) return;
+    activePaketKey = key;
+
+    // 1. Update Visual State di Bagian Kartu Harga
+    Object.keys(paketData).forEach(k => {
+      const p = paketData[k];
+      const cardEl = document.getElementById(p.cardId);
+      const badgeEl = document.getElementById(p.badgeId);
+      const btnEl = document.getElementById(p.btnId);
+      const btnSpan = btnEl ? btnEl.querySelector('.btn-text') : null;
+
+      if (k === key) {
+        if (cardEl) {
+          cardEl.classList.add('border-[#3E0F8D]', 'shadow-2xl', 'ring-2', 'ring-[#3E0F8D]/30', 'scale-[1.02]');
+          cardEl.classList.remove('border-transparent');
+        }
+        if (badgeEl) badgeEl.classList.remove('hidden');
+        if (btnEl) {
+          btnEl.classList.add('bg-[#3E0F8D]', 'text-white');
+          btnEl.classList.remove('bg-surface-container-high', 'text-primary');
+          if (btnSpan) btnSpan.innerText = '✓ Terpilih di Formulir';
+        }
+      } else {
+        if (cardEl) {
+          cardEl.classList.remove('border-[#3E0F8D]', 'shadow-2xl', 'ring-2', 'ring-[#3E0F8D]/30', 'scale-[1.02]');
+          cardEl.classList.add('border-transparent');
+        }
+        if (badgeEl) badgeEl.classList.add('hidden');
+        if (btnEl) {
+          btnEl.classList.remove('bg-[#3E0F8D]', 'text-white');
+          if (k === 'keluarga') {
+            btnEl.classList.add('bg-primary', 'text-on-primary');
+          } else {
+            btnEl.classList.add('bg-surface-container-high', 'text-primary');
+          }
+          if (btnSpan) btnSpan.innerText = p.btnText;
+        }
+      }
+    });
+
+    // 2. Update Visual State di Bagian Tombol Selector Formulir
+    Object.keys(paketData).forEach(k => {
+      const optBtn = document.getElementById(paketData[k].optId);
+      const checkIcon = document.getElementById(`check-icon-${k}`);
+      if (!optBtn) return;
+
+      if (k === key) {
+        optBtn.className = "group text-left p-3.5 rounded-xl border-2 border-[#3E0F8D] bg-[#f3eeff] transition-all duration-200 flex flex-col justify-between cursor-pointer focus:outline-none relative shadow-sm ring-1 ring-[#3E0F8D]/20";
+        if (checkIcon) {
+          checkIcon.className = "w-5 h-5 rounded-full bg-[#3E0F8D] border-2 border-[#3E0F8D] flex items-center justify-center text-white shrink-0 transition-colors";
+          const iconSpan = checkIcon.querySelector('.material-symbols-outlined');
+          if (iconSpan) iconSpan.classList.remove('hidden');
+        }
+      } else {
+        optBtn.className = "group text-left p-3.5 rounded-xl border-2 border-outline-variant/50 hover:border-[#3E0F8D]/60 bg-surface-container-lowest transition-all duration-200 flex flex-col justify-between cursor-pointer focus:outline-none relative";
+        if (checkIcon) {
+          checkIcon.className = "w-5 h-5 rounded-full border-2 border-outline-variant/60 flex items-center justify-center text-white shrink-0 transition-colors";
+          const iconSpan = checkIcon.querySelector('.material-symbols-outlined');
+          if (iconSpan) iconSpan.classList.add('hidden');
+        }
+      }
+    });
+
+    // 3. Update data WhatsApp preview & Kalkulator
+    updateWhatsAppPreview();
+
+    // 4. Smooth scroll ke Formulir jika diklik dari section kartu harga
+    if (shouldScroll) {
+      const orderSection = document.getElementById('order-cepat');
+      if (orderSection) {
+        orderSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  }
+
+  function getPerhitunganOngkir() {
+    const activePaket = paketData[activePaketKey] || paketData.keluarga;
+    const jumlah = parseInt(document.getElementById('jumlah_paket')?.value) || 1;
+    const totalBerat = activePaket.weightKg * jumlah;
+    const subtotalBuah = activePaket.price * jumlah;
+
+    const kurir = kurirData[activeKurirKey] || kurirData.paxel;
+    const rawOngkir = kurir.baseRatePerKg * totalBerat;
+
+    // Logika Subsidi Ongkir Kebun:
+    // - Jika paket reseller (atau totalBerat >= 5 kg): subsidi Rp 15.000
+    // - Jika paket keluarga (atau totalBerat >= 3 kg): subsidi Rp 10.000
+    // - Jika paket coba (1 kg): subsidi Rp 5.000
+    let subsidi = 5000;
+    if (totalBerat >= 5) {
+      subsidi = 15000;
+    } else if (totalBerat >= 3) {
+      subsidi = 10000;
+    }
+
+    const ongkirFinal = Math.max(0, rawOngkir - subsidi);
+    const grandTotal = subtotalBuah + ongkirFinal;
+
+    return {
+      activePaket,
+      jumlah,
+      totalBerat,
+      subtotalBuah,
+      kurir,
+      rawOngkir,
+      subsidi,
+      ongkirFinal,
+      grandTotal
+    };
+  }
+
+  function generateTextMessage() {
+    const nama = document.getElementById('nama_pemesan')?.value.trim() || '-';
+    const wa = document.getElementById('nomor_whatsapp')?.value.trim() || '-';
+    const alamat = document.getElementById('kota_kecamatan')?.value.trim() || '-';
+    const calc = getPerhitunganOngkir();
+    const catatan = document.getElementById('catatan_pesanan')?.value.trim() || '-';
+
+    return `Halo Kebun Elof Farm, saya ingin memesan buah pepino segar:
+
+• Nama: ${nama}
+• No. HP: ${wa}
+• Kota / Alamat Pengiriman: ${alamat}
+• Pilihan Paket: ${calc.activePaket.label} (${formatRupiah(calc.activePaket.price)})
+• Jumlah: ${calc.jumlah} Paket (Total ${calc.totalBerat} kg)
+• Ekspedisi Pilihan: ${calc.kurir.name}
+• Subtotal Buah: ${formatRupiah(calc.subtotalBuah)}
+• Ongkos Kirim: ${formatRupiah(calc.rawOngkir)}
+• Subsidi Ongkir Kebun: - ${formatRupiah(calc.subsidi)}
+• TOTAL ESTIMASI: ${formatRupiah(calc.grandTotal)}
+• Catatan: ${catatan}
+
+Mohon konfirmasi pesanan dan nomor rekening pembayarannya ya. Terima kasih!`;
+  }
+
+  function updateWhatsAppPreview() {
+    const calc = getPerhitunganOngkir();
+
+    // 1. Update Tampilan Subtotal Mini di dekat counter kuantitas
+    const subtotalDisplay = document.getElementById('subtotalDisplay');
+    if (subtotalDisplay) subtotalDisplay.innerText = formatRupiah(calc.subtotalBuah);
+
+    // 2. Update Badge Total Berat
+    const badgeTotalBerat = document.getElementById('badgeTotalBerat');
+    if (badgeTotalBerat) badgeTotalBerat.innerText = `${calc.totalBerat} kg`;
+
+    // 3. Update Banner Subsidi Teks
+    const bannerText = document.getElementById('subsidiBannerText');
+    if (bannerText) {
+      bannerText.innerHTML = ` Anda mendapatkan subsidi ongkir <strong>${formatRupiah(calc.subsidi)}</strong> untuk pesanan seberat <strong>${calc.totalBerat} kg</strong>!`;
+    }
+
+    // 4. Update Estimasi Harga Tiap Kartu Kurir
+    const kurirList = ['paxel', 'sicepat', 'regular'];
+    kurirList.forEach(k => {
+      const kurirItem = kurirData[k];
+      const el = document.getElementById(`ongkir-${k}-total`);
+      if (el && kurirItem) {
+        el.innerText = formatRupiah(kurirItem.baseRatePerKg * calc.totalBerat);
+      }
+    });
+
+    // 5. Update Rincian Biaya (Receipt Summary)
+    const calcItemQtyLabel = document.getElementById('calcItemQtyLabel');
+    if (calcItemQtyLabel) calcItemQtyLabel.innerText = `${calc.jumlah} Paket @ ${calc.activePaket.weightKg} kg`;
+
+    const calcSubtotalBuah = document.getElementById('calcSubtotalBuah');
+    if (calcSubtotalBuah) calcSubtotalBuah.innerText = formatRupiah(calc.subtotalBuah);
+
+    const calcKurirLabel = document.getElementById('calcKurirLabel');
+    if (calcKurirLabel) calcKurirLabel.innerText = calc.kurir.name.split(' (')[0];
+
+    const calcBeratLabel = document.getElementById('calcBeratLabel');
+    if (calcBeratLabel) calcBeratLabel.innerText = `${calc.totalBerat} kg`;
+
+    const calcBiayaOngkir = document.getElementById('calcBiayaOngkir');
+    if (calcBiayaOngkir) calcBiayaOngkir.innerText = formatRupiah(calc.rawOngkir);
+
+    const calcSubsidiOngkir = document.getElementById('calcSubsidiOngkir');
+    if (calcSubsidiOngkir) calcSubsidiOngkir.innerText = `- ${formatRupiah(calc.subsidi)}`;
+
+    const calcGrandTotal = document.getElementById('calcGrandTotal');
+    if (calcGrandTotal) calcGrandTotal.innerText = formatRupiah(calc.grandTotal);
+
+    // 6. Update Preview Chat WhatsApp
+    const previewEl = document.getElementById('waPreviewText');
+    if (previewEl) {
+      previewEl.innerText = generateTextMessage();
+    }
+  }
+
+  function handleOrderSubmit(e) {
+    e.preventDefault();
+    const msg = generateTextMessage();
+    const encoded = encodeURIComponent(msg);
+    const waUrl = `https://wa.me/?text=${encoded}`;
+    window.open(waUrl, '_blank');
+  }
+
+  // Inisialisasi awal saat halaman siap
+  document.addEventListener('DOMContentLoaded', () => {
+    pilihPaket('keluarga', 125000, false);
+    pilihKurir('paxel');
+  });
+</script></main><footer class="w-full bg-surface-container text-on-surface-variant"><div class="max-w-7xl mx-auto px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs"><img alt="Elof Farm Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBydc0x0vZ7YYetHB1QPYv7rhi3h4QHq-1QJa6CBkXeTilz-D8FDS19TaM2En_mo3FEuZe7whdTRo2rcqWN5y9Q1NvGJO1GaoiClqA49Ppo-IYoJ-GZZE3R2ulvqLF-seUwMhQggQnFdJ5OTNfRNttRnEMzC_N-zbH9FAzTR8X0A0uZRc2rmJ_x0qsco-CQPo_n9iCpPzaCCoi5gxvJF-gHpPqBqvBbFps2rQZw6cINS16WyI9oGO6goA"/><span class="font-headline-sm text-headline-sm text-primary">Elof Farm</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Perkebunan pepino premium pilihan, dipanen matang pohon langsung dari dataran tinggi untuk nutrisi dan kesegaran maksimal di meja Anda.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="px-space-sm py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">Garansi Manis &amp; Segar</span></div></div><div class="flex flex-col gap-space-xs"><h4 class="font-title-md text-title-md text-on-surface mb-space-xs">Kebun &amp; Operasional</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Dataran Tinggi Dieng &amp; Pasuruan, Indonesia</p><p class="font-body-sm text-body-sm text-on-surface-variant">Jam Operasional Petik &amp; Kirim:</p><p class="font-label-sm text-label-sm text-on-surface font-semibold">Senin - Sabtu: 07.00 - 17.00 WIB</p><p class="font-body-sm text-body-sm text-on-surface-variant">Pengiriman instan &amp; ekspedisi pendingin aktif setiap hari kerja.</p></div><div class="flex flex-col gap-space-xs"><h4 class="font-title-md text-title-md text-on-surface mb-space-xs">Jangkauan &amp; Pengiriman</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Melayani pengiriman buah segar ke seluruh kota di Indonesia dengan packing kardus berongga ganda &amp; jaring busa pelindung.</p><div class="flex items-center gap-space-xs pt-space-xs text-secondary"><span class="material-symbols-outlined text-base">local_shipping</span><span class="font-label-sm text-label-sm">Ekspedisi Reguler, Next-Day &amp; Cargo</span></div></div><div class="flex flex-col gap-space-xs"><h4 class="font-title-md text-title-md text-on-surface mb-space-xs">Hubungi Kami</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Konsultasi pesanan partai besar &amp; reseller:</p><a class="font-label-md text-label-md text-primary hover:text-secondary transition-colors" href="https://wa.me/">WhatsApp Official Kebun</a><p class="font-body-sm text-body-sm text-on-surface-variant">Email: halo@eloffarm.id</p><div class="flex items-center gap-space-md pt-space-xs"><a class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface hover:bg-surface-variant transition-colors" href="#"><span class="material-symbols-outlined text-base">public</span></a><a class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface hover:bg-surface-variant transition-colors" href="#"><span class="material-symbols-outlined text-base">photo_camera</span></a><a class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface hover:bg-surface-variant transition-colors" href="#"><span class="material-symbols-outlined text-base">send</span></a></div></div></div><div class="border-t border-outline-variant/30 pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-left"><p class="font-label-sm text-label-sm text-on-surface-variant">© 2024 Elof Farm. Hak Cipta Dilindungi. Spesialis Budidaya &amp; Penjualan Buah Pepino.</p><div class="flex items-center gap-space-md"><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Kebijakan Pengiriman</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Klaim Garansi</a><a class="font-label-sm text-label-sm text-primary hover:underline" data-path="manajemen-pesanan" href="#">Akses Dashboard</a></div></div></div></footer></body></html>
